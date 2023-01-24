@@ -1,0 +1,46 @@
+:root {
+    --color-background :      hsla(0, 0%, 33%, 1);
+    --color-background-Dark:  hsla(223, 10%, 18%, 1);
+    
+    --color-accent-yellow :  hsla(45, 71%, 81%, 1);
+    --color-accent-blue :    hsla(188, 16%, 53%, 1);
+    --color-accent-green :   hsla(105, 24%, 77%, 1);
+    --color-accent-pink :    hsla(0, 86%, 75%, 1);
+    --color-accent-red :     hsla(343, 48%, 57%, 1);
+
+    --color-accent-hover:    hsla(233, 8%, 23%, 1);
+
+    --color-ui-dark-1 :  hsla(230, 10%, 12%, 1);
+    --color-ui-dark-2 :  hsla(231, 8%, 16%, 1);
+    --color-ui-dark-3 :  hsla(230, 5%, 8%, 1);
+
+    --color-text-dark :     hsla(227, 8%, 12%, 1);
+    --color-text-primary :  hsla(0, 0%, 100%, 1);
+    --color-text-secondary :hsla(0, 0%, 100%, 0.6);
+
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    color: var(--color-text-primary);
+    background-color: var(--color-background);
+    font-size: 1.4rem;
+    line-height: 1.5;
+    display: flex;
+    place-content: center;
+}
+
+.font-Nutino-600{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+.font-Nutino-400{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+}
