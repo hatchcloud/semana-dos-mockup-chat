@@ -33,7 +33,9 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     display: flex;
-    place-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .font-Nutino-600{
@@ -43,4 +45,55 @@ body {
 .font-Nutino-400{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
+}
+
+.headline-01{
+    font-size: 2.4rem;
+}
+
+.container-chat{
+    max-width: 136rem;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 2.75fr 1fr;
+    background-color: var(--color-background-Dark);
+    border-radius: 1.6rem;
+}
+
+.profile-message{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 1.6rem;
+    min-width: 30rem
+}
+
+.profile-message img{
+    object-fit: contain;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+.icons img{
+    height: 2.4rem;
+}
+
+.search{
+    padding: 1.2rem 1.6rem 2.4rem;
+    border-bottom: 0.1rem solid #37393C;
+}
+
+.search input {
+    width: 100%;
+    background: var(--color-accent-hover);
+    border-radius: 0.8rem;
+    border: none;
+    height: 4rem;
+}
+
+.message{
+    padding: 1.2rem 2.4rem;
 }
