@@ -47,6 +47,14 @@ body {
     font-weight: 400;
 }
 
+.flex{
+    display: flex;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
 .headline-01{
     font-size: 2.4rem;
 }
@@ -58,17 +66,20 @@ body {
     grid-template-columns: 1fr 2.75fr 1fr;
     background-color: var(--color-background-Dark);
     border-radius: 1.6rem;
+    overflow: hidden;
 }
 
 .profile-message{
     display: flex;
     justify-content: space-between;
     padding: 1.2rem 1.6rem;
-    min-width: 30rem
+    min-width: 30rem;
+    background-color: var(--color-background-Dark);
 }
 
 .profile-message img{
     object-fit: contain;
+    height: 4rem;
 }
 
 .icons{
@@ -96,4 +107,57 @@ body {
 
 .message{
     padding: 1.2rem 2.4rem;
+}
+
+.history-container{
+    border-right: 1px solid #37393C;
+}
+
+.main-container{
+    background-color: var(--color-ui-dark-3);
+}
+.profile-container{
+    min-width: 28rem;
+    border-left: 0.1rem solid #37393C;
+}
+
+
+.contact-header{
+    padding: 2rem 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.8rem;
+    border-bottom: 0.1rem solid #37393C;
+}
+
+.info{
+    color: var(--color-text-secondary);
+    margin-top: 4rem;
+}
+
+.user-chat{
+    padding: 1.2rem 2.4rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.user-chat:hover{
+    background-color: var(--color-accent-hover);
+    cursor: pointer;
+}
+
+.user-chat img {
+    height: 4.8rem;
+}
+.user-chat h4{
+    font-size: 1.6rem;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+.user-chat p{
+    color: var(--color-text-secondary);
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
 }
