@@ -160,4 +160,99 @@ body {
     white-space: nowrap; 
     overflow: hidden;
     text-overflow: ellipsis; 
+    width: 20rem;
+}
+
+.time{
+    width: 4rem !important;
+    font-size: 1.2rem;
+    text-align: end;
+}
+
+.selected{
+    background-color: var(--color-ui-dark-3) !important;
+}
+
+.chat{
+    padding: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.encabezado h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.message-bubble{
+    display: flex;
+    width: 100%;
+}
+
+
+.form-chat{
+    min-width: 2.4rem;
+    height: 1.6rem;
+    border-top: 0.8rem solid var(--color-ui-dark-2);
+    border-right: 1.6rem solid var(--color-ui-dark-2);
+    border-bottom: 0.8rem solid transparent;
+    border-left: 1.6rem solid transparent;
+}
+
+.form-chat-02{
+    min-width: 2.4rem;
+    height: 1.6rem;
+    border-top: 0.8rem solid var(--color-accent-green);
+    border-right: 1.6rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+    border-left: 1.6rem solid var(--color-accent-green);
+    
+}
+
+
+.bubble{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    max-width: 53rem;
+}
+.bubble p {
+    background-color: var(--color-ui-dark-2);
+    padding: 0.8rem;
+    border-radius: 0px 0.4rem 0.4rem 0.4rem;
+}
+
+.bubble span {
+    margin-top: 0.8rem;
+    color:  var(--color-text-secondary);
+}
+
+.bubble-owner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.bubble-owner p {
+    background-color: var(--color-accent-green);
+    padding: 0.8rem;
+    border-radius: 0.4rem 0px 0.4rem 0.4rem;
+    color: var(--color-text-dark)
+}
+
+.bubble-owner span {
+    margin-top: 0.8rem;
+    color:  var(--color-text-secondary);
+}
+
+
+.owner{
+    justify-content: flex-end;
 }
