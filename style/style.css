@@ -310,3 +310,62 @@ body {
     border: 0.2rem solid var(--color-accent-blue);
     outline: 0;
 }
+
+.avatar{
+    padding: 2.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    border-bottom: 0.1rem solid #37393C;
+}
+
+.avatar img{
+    width: 12rem;
+    height: 12rem;
+}
+
+.name-section{
+    color: var(--color-text-secondary);
+    text-align: center;
+}
+.name {
+    font-size: 1.6rem;
+    color: var(--color-text-primary);
+}
+
+.info-sec{
+    padding: 2.4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 0.1rem solid #37393C;
+}
+
+.info-sec p{
+    color: var(--color-text-secondary);
+}
+
+.title-info {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--color-text-primary) !important;
+}
+
+.small{
+    font-size: 1.2rem;
+}
+
+.carrusel{
+    margin-top: 0.8rem;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.carrusel img {
+    border-radius: 0.4rem;
+}
